@@ -64,6 +64,7 @@ export default function Home() {
 
   const selectedOption = useMemo(() => {
     return options.find((option) => option.value === input);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [input]);
 
   return (
