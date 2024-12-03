@@ -127,7 +127,7 @@ export default function Home() {
                       <h3 className="font-bold text-neutral-800">
                         Buổi sáng (8:00 - 11:30)
                       </h3>
-                      <ul className="list-disc pl-5 space-y-2">
+                      <ul className="list-disc pl-5 space-y-2 text-neutral-700">
                         <li>
                           8:00 - 9:30: Đi ăn sáng và di chuyển đến địa điểm nha
                           <p className="text-sm text-gray-600 mt-1">
@@ -139,7 +139,7 @@ export default function Home() {
                         </li>
                         <li>
                           9:30 - 11:30:
-                          <ul className="list-disc pl-5 space-y-2">
+                          <ul className="list-disc pl-5 space-y-2 text-neutral-700">
                             {selectedOption?.data1?.map(
                               (item: any, index: any) => (
                                 <li key={index}>{item}</li>
@@ -152,7 +152,7 @@ export default function Home() {
                       <h3 className="font-bold pt-4 text-neutral-800">
                         Buổi trưa (11:30 - 13:00)
                       </h3>
-                      <ul className="list-disc pl-5 space-y-2">
+                      <ul className="list-disc pl-5 space-y-2 text-neutral-700">
                         <li>
                           11:30 - 12:30: Mình sẽ đi ăn trưa nha
                           <p className="text-sm text-gray-600 mt-1">
@@ -169,10 +169,10 @@ export default function Home() {
                       <h3 className="font-bold pt-4 text-neutral-800">
                         Buổi chiều (13:00 - 18:00)
                       </h3>
-                      <ul className="list-disc pl-5 space-y-2">
+                      <ul className="list-disc pl-5 space-y-2 text-neutral-700">
                         <li>
                           13:00 - 17:30:
-                          <ul className="list-disc pl-5 space-y-2">
+                          <ul className="list-disc pl-5 space-y-2 text-neutral-700">
                             {selectedOption?.data2?.map(
                               (item: any, index: any) => (
                                 <li key={index}>{item}</li>
